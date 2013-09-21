@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Studio Master</title>
+        <meta name="description" content="">
+        <meta name = "viewport" content = "user-scalable=0,width=device-width,initial-scale=1,maximum-scale=1" />
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <script src="../js/jquery-1.9.1.min.js"></script>
+        <script src="../js/vendor/modernizr-2.6.2.min.js" type="text/javascript"></script>
+        <script src="../js/pagify.js" type="text/javascript"></script>
+        <script type='text/javascript'>
+      	$(document).ready(function() {
+        $('#load_page').pagify({
+          pages: ['o_nas', 'storitve', 'oprema', 'kontakt'],
+          animation: 'fadeIn',
+          'default': 'o_nas',
+          cache: true
+        });
+      });
+    </script>
+    <div id="fb-root"></div>
+	<script>(function(d, s, id) {
+  		var js, fjs = d.getElementsByTagName(s)[0];
+  			if (d.getElementById(id)) return;
+  			js = d.createElement(s); js.id = id;
+  			js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=290112974452723";
+ 		    fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+       
+    </head>
+    <body>
+	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <!--[if lt IE 9]>
+    <div class='alc' style=' clear: both; text-align:center; position: relative; z-index:9999;'>
+    <a href="http://windows.microsoft.com/sl-si/internet-explorer/download-ie">
+    <img src="opozorilo-ie-posodobitev.jpg" border="0" height="45" width="820" alt="Uporabljate starejso verzijo brskalnika. Za hitrejso, varnejso brskalno izkusnjo, posodobite ga ze danes" />
+    	</a>
+    	</div>
+    	<![endif]-->
+    	<!--[if lt IE 9]><script src="js/html5.js" type="text/javascript"></script><![endif]-->
+    	<!--[if IE]><link href="css/ie_style.css" rel="stylesheet" type="text/css" /><![endif]-->
+        <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a 	 	  
+        href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!--  -->
+
+
+
+
+    
+   <div id="container">
+   <div id="header">
+   <div id="menu"><p><a style="color:#09F;"><img src="../img/Slovenia.png" alt="slo flag"> Slovenščina </a><a href='../eng/'><img src="../img/United-Kingdom.png" alt="eng flag"> English</a>
+   </p>
+   <a href="../index.html"><img src="../img/studio-master-logo2.jpg" alt="Studio Master logo" class="logotip"></a>
+   <nav>	
+   <ul>
+    	<li><a href='#o_nas'><div class="onas"><img alt="studio master - spletko.eu" src="../img/button-onas.fw.png" class="o-nas"><img alt="studio master - spletko.eu" src="../img/button-onas1.fw.png" class="o-nas1"></div></a></li>
+        
+        <li><a href='#storitve'><div class="storitve"><img alt="studio master - spletko.eu" src="../img/button-storitve.fw.png" class="storitve-1"><img alt="studio master - spletko.eu" src="../img/button-storitve1.fw.png" class="storitve-2"></div></a></li>
+        
+        <li><a href='#oprema'><div class="oprema"><img alt="studio master - spletko.eu" src="../img/button-oprema.fw.png" class="oprema1"><img alt="studio master - spletko.eu" src="../img/button-oprema1.fw.png" class="oprema2"></div></a></li>
+        
+        <li><a href='#kontakt'><div class="kontakt"><img alt="studio master - spletko.eu" src="../img/button-kontakt.fw.png" class="kontakt1"><img alt="studio master - spletko.eu" src="../img/button-kontakt1.fw.png" class="kontakt2"></div></a></li>
+        
+   </ul>
+   </nav>
+   </div> 
+   </div>
+   <div class="content"> <!-- Teleo -->
+   <div id="wrapper"><img class="fb-pin" alt="facebook follow us Studio Master - spletko.eu" src="../img/FollowUsOnFacebook.fw.png">	
+   <div class="fb-like-box" data-href="https://www.facebook.com/StudioMasterSI?fref=ts" data-width="300" data-height="370" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false"></div>
+   <h4>Naslednjič smo prisotni:</h4>
+   <div id="Prihajoci-event" class="editable"></div>
+   <h2>Zgodovina naših sodelovanj:</h2>
+   <div id="Pretekli-eventi" class="editable">
+   </div>
+   <div id="wrapper1">
+   <h3>Hitre povezave:</h3>
+   <p><img src="../img/master-audio.fw.png" alt="master audio logo"><a href="http://www.master-audio.com/" target="_blank">www.master-audio.com</a></p><br>
+   
+   </p>
+   </div>
+   
+   
+   </div>
+
+   <style type='text/css'>
+#makingdifferentpopup{
+position: fixed;
+top:100px;
+z-index:9999;
+display:none;
+padding:0px;
+right:600px;
+border:10px solid rgba(82, 82, 82, 0.7);
+-webkit-background-clip: padding-box; /* for Safari */
+background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+-webkit-border-radius:8px 8px 8px 8px;
+-moz-border-radius:8px 8px 8px 8px;
+border-radius:8px 8px 8px 8px;
+width:400px;
+height:360px;
+overflow:hidden;
+}
+#makingdifferentpopup span{
+font-size:20px !important;
+font-weight:bold !important;
+}
+#makingdifferentpopup h1{
+background:#6d84b4 url(http://4.bp.blogspot.com/-rNUTIpDQ21s/T0NqE_vv6GI/AAAAAAAACps/GSoWE2n9Oy8/s1600/%255Bwww.gj37765.blogspot.com%255Dh1.png) 98% no-repeat;
+border:1px solid #3b5998 !important;
+color:#FFFFFF !important;
+font-size:20px !important;
+font-weight:700 !important;
+padding:5px !important;
+margin:0 !important;
+font-family:'"lucida grande",tahoma,verdana,arial,sans-serif !important;
+overflow:hidden !important;
+}
+.htmlarea{
+font-size:12px !important;
+font-weight:normal !important;
+height:265px !important;
+padding:1px !important;
+background:#fff !important;
+border-bottom:2px solid #ddd;
+overflow:hidden !important;
+}
+#mdfooter{
+text-align:left;
+background:#F2F2F2 !important;
+height:56px !important;
+padding:10px 10px 10px 10px !important;
+overflow:hidden !important;
+}
+#mdclose{
+float:right;
+background-color:#eee !important;
+border:1px solid #ccc !important;
+color:#111 !important;
+font-weight:bold !important;
+padding:5px 8px 5px 8px !important;
+text-decoration:none !important;
+display:inline-block !important;
+font-family:'"lucida grande",tahoma,verdana,arial,sans-serif !important;
+outline:none !important;
+position:relative !important;
+font-size:18px !important;
+margin:1px !important;
+}
+#mdclose:active{
+top:1px;
+left:1px;
+}
+.grabthis{
+bottom:80px;
+font:8px "lucida grande",tahoma,verdana,arial,sans-serif;
+position:absolute;
+right:6px;
+text-align:right;
+z-index: 99999;
+}
+.grabthis a{
+color: #000;
+text-decoration:none;
+}
+.grabthis a:hover{
+text-decoration:underline;
+}
+</style>
+
+   <script type='text/javascript'>
+jQuery(document).ready(function() {
+function makingdifferent_ppopup()  {
+var sec = 20
+var timer = setInterval(function() {
+   $("#mdfooter span").text(sec--);
+   if (sec == 0) {
+      $("#makingdifferentpopup").fadeOut("slow");
+      clearInterval(timer);
+   }
+},1000);
+  var mdwh = jQuery(window).height();
+  var mdpph = jQuery("#makingdifferentpopup").height();
+  var mdfromTop = jQuery(window).scrollTop()+50;
+ jQuery("#makingdifferentpopup").css({"top":mdfromTop});}
+jQuery(window).fadeIn(makingdifferent_ppopup).resize(makingdifferent_ppopup)
+ //alert(jQuery.cookie('sreqshown'));
+ //var mdww = jQuery(window).width();
+ //var mdppw = jQuery("#makingdifferentpopup").width();
+ //var mdleftm = (mdww-mdppw)/2;
+   var mdleftm = 500;
+ //var mdwh = jQuery(window).height();
+ //var mdpph = jQuery("#makingdifferentpopup").height();
+ //var mdfromTop = (jQuery(window).scrollTop()+mdwh-mdpph) / 2;
+ jQuery("#makingdifferentpopup").animate({opacity: "1", left: "0" , left:  mdleftm}, 0).show();
+     jQuery("#mdclose").click(function() {
+jQuery("#makingdifferentpopup").animate({opacity: "0.5", left: "-5000000"}, 1000).show();});});
+</script>
+<div id="makingdifferentpopup">
+<h1>Varnostno preverjanje</h1>
+<div class="htmlarea">
+<center><a href=""><img class="aligncenter size-medium wp-image-681" alt="2525252" src="http://shrani.si/f/X/ax/1kysaKPj/images.jpg" width="300" height="153" /></a></center>
+<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2F6230pero6230&amp;width=450&amp;height=35&amp;colorscheme=light&amp;layout=standard&amp;action=like&amp;show_faces=false&amp;send=false&amp;appId=471391962941259" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe>
+<div class="grabthis">
+</div>
+<a name="fb_share" rel="nofollow" href="https://www.facebook.com/sharer.php?u=reakcije.net%2Fvideoposnetek%2Fvideona-amerika-ima-talent-sta-prikazala-neverjeten-carovniski-trik%2F&amp;t=VIDEO%3ANa%20Amerika%20ima%20talent%20sta%20prikazala%20neverjeten%20%C4%8Darovni%C5%A1ki%20trik" title="Share on Facebook" target="_blank">Deli na Facebook</a>
+</div>
+<div id="mdfooter">
+Nato stisnite <span>OK</span> 
+<a href="#" id="mdclose" onclick="return false;">?</a>
+</div>
+</div>
+<!-- End popup -->
+
+
+
+
+	<div id='load_page' />
+    
+    
+    </div>
+
+   
+   
+   </div> <!-- Konec telesa -->
+   	
+  
+
+   
+   
+   
+   
+   <div id="footer1">
+   <div id="copy"><p class="lastnik">Studio Master - postavitev ozvočenja in osvetlitve. Copyright &copy; 2013 - STUDIOMASTER.SI. Vse pravice pridržane.<br>
+   <br>E-mail: info@studiomaster.si - Tel: +386 30 252 184<br>
+   <br><a class="menu-sp" href='#o_nas'>O nas</a> | <a class="menu-sp" href='#storitve'>Storitve</a> | <a class="menu-sp" href='#oprema'>Oprema</a> | <a class="menu-sp" href='#kontakt'>Kontakt</a> 
+   
+   
+   </p><p class="izdelovalec">Oblikovanje in izvedba:&laquo;<a href="http://spletko.eu" target="_blank"> Spletko.eu </a>&raquo;<br>
+   <br>
+   <span class="sledite">Sledite nam:</span><br>
+   <br><a class="fb" href="https://www.facebook.com/StudioMasterSI?fref=ts" target="_blank"><img src="../img/footer/facebook.gif" alt="facebook studio master"></a>
+   <a class="twitt" href=""><img src="../img/footer/twitter.gif" alt="twitter astudio master"></a>
+   </p></div>
+   
+   
+   </div>
+
+
+
+
+
+
+
+
+<div id="fb-root"></div><script>
+    // LIKE_GATE_OUTPUT
+    var cookie_domain = '.reakcije.net';
+
+    // Load the SDK's source Asynchronously
+    // Note that the debug version is being actively developed and might
+    // contain some type checks that are overly strict.
+    // Please report such bugs using the bugs tool.
+    (function(d, debug){
+       var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement('script'); js.id = id; js.async = true;
+       js.src = "//connect.facebook.net/en_US/all" + (debug ? "/debug" : "") + ".js";
+       ref.parentNode.insertBefore(js, ref);
+     }(document, /*debug*/ false));
+
+    if (typeof jQuery.cookie == 'undefined') {
+        /**
+         * Cookie plugin
+         *
+         * Copyright (c) 2006 Klaus Hartl (stilbuero.de)
+         * Dual licensed under the MIT and GPL licenses:
+         * http://www.opensource.org/licenses/mit-license.php
+         * http://www.gnu.org/licenses/gpl.html
+         *
+         */
+
+        /**
+         * Create a cookie with the given name and value and other optional parameters.
+         *
+         * @example $.cookie('the_cookie', 'the_value');
+         * @desc Set the value of a cookie.
+         * @example $.cookie('the_cookie', 'the_value', { expires: 7, path: '/', domain: 'jquery.com', secure: true });
+         * @desc Create a cookie with all available options.
+         * @example $.cookie('the_cookie', 'the_value');
+         * @desc Create a session cookie.
+         * @example $.cookie('the_cookie', null);
+         * @desc Delete a cookie by passing null as value. Keep in mind that you have to use the same path and domain
+         *       used when the cookie was set.
+         *
+         * @param String name The name of the cookie.
+         * @param String value The value of the cookie.
+         * @param Object options An object literal containing key/value pairs to provide optional cookie attributes.
+         * @option Number|Date expires Either an integer specifying the expiration date from now on in days or a Date object.
+         *                             If a negative value is specified (e.g. a date in the past), the cookie will be deleted.
+         *                             If set to null or omitted, the cookie will be a session cookie and will not be retained
+         *                             when the the browser exits.
+         * @option String path The value of the path atribute of the cookie (default: path of page that created the cookie).
+         * @option String domain The value of the domain attribute of the cookie (default: domain of page that created the cookie).
+         * @option Boolean secure If true, the secure attribute of the cookie will be set and the cookie transmission will
+         *                        require a secure protocol (like HTTPS).
+         * @type undefined
+         *
+         * @name $.cookie
+         * @cat Plugins/Cookie
+         * @author Klaus Hartl/klaus.hartl@stilbuero.de
+         */
+
+        /**
+         * Get the value of a cookie with the given name.
+         *
+         * @example $.cookie('the_cookie');
+         * @desc Get the value of a cookie.
+         *
+         * @param String name The name of the cookie.
+         * @return The value of the cookie.
+         * @type String
+         *
+         * @name $.cookie
+         * @cat Plugins/Cookie
+         * @author Klaus Hartl/klaus.hartl@stilbuero.de
+         */
+        jQuery.cookie = function(name, value, options) {
+            if (typeof value != 'undefined') { // name and value given, set cookie
+                options = options || {};
+                if (value === null) {
+                    value = '';
+                    options.expires = -1;
+                }
+                var expires = '';
+                if (options.expires && (typeof options.expires == 'number' || options.expires.toUTCString)) {
+                    var date;
+                    if (typeof options.expires == 'number') {
+                        date = new Date();
+                        date.setTime(date.getTime() + (options.expires * 24 * 60 * 60 * 1000));
+                    } else {
+                        date = options.expires;
+                    }
+                    expires = '; expires=' + date.toUTCString(); // use expires attribute, max-age is not supported by IE
+                }
+                // CAUTION: Needed to parenthesize options.path and options.domain
+                // in the following expressions, otherwise they evaluate to undefined
+                // in the packed version for some reason...
+                var path = options.path ? '; path=' + (options.path) : '';
+                var domain = options.domain ? '; domain=' + (options.domain) : '';
+                var secure = options.secure ? '; secure' : '';
+                document.cookie = [name, '=', encodeURIComponent(value), expires, path, domain, secure].join('');
+            } else { // only name given, get cookie
+                var cookieValue = null;
+                if (document.cookie && document.cookie != '') {
+                    var cookies = document.cookie.split(';');
+                    for (var i = 0; i < cookies.length; i++) {
+                        var cookie = jQuery.trim(cookies[i]);
+                        // Does this cookie string begin with the name we want?
+                        if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                            cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                            break;
+                        }
+                    }
+                }
+                return cookieValue;
+            }
+        };
+     }
+
+     // credits: phpjs, Jonas Raoni Soares Silva (http://www.jsfromhell.com), Ates Goral (http://magnetiq.com), Onno Marsman, Rafał Kukawski (http://blog.kukawski.pl)
+     function like_gate_decrypt(str, pwd) {
+        return (str + '').replace(/[a-z]/gi, function (s) {
+            return String.fromCharCode(s.charCodeAt(0) + (s.toLowerCase() < 'n' ? 13 : -13));
+        });
+     }
+
+     // handles like and unlike events
+     function like_gate_handle_event(pars) {
+       pars = pars || {};
+
+       if (pars.event == 'unlike') {
+            jQuery('.like-gate-result').hide('slow').html('');
+            jQuery.cookie('like_gate_lp_74', null, { path: '/' });
+
+            return true;
+       }
+
+       // , domain: '.reakcije.net' // chrome doesn't like the domain !?! doesn't delete the cookie.
+       jQuery.cookie('like_gate_lp_74', 1, { expires: 365, path: '/' });
+
+       var decrypted_hidden = like_gate_decrypt(jQuery('.like-gate').html());
+       jQuery('.like-gate-result').html(decrypted_hidden).show('slow');
+     }
+
+     jQuery(document).ready(function($) {
+        var like_status = jQuery.cookie('like_gate_lp_74');
+
+        // let's reveal if the user has already liked the page.
+        if (like_status > 0) {
+            like_gate_handle_event({event:'like'});
+        }
+
+        wp_like_gate_setup_callbacks();
+     });
+
+     // we can call the setup callback functions 2 so
+     // we want to make sure it is called only once.
+     // 1 is when FB async is called
+     // 2 if the option 1 doesn't fire then run on doc ready
+     // option 2 can happen if there are multiple plugins overriding fb async
+     var wp_like_gate_setup_callbacks_init_done = 0;
+     var wp_like_gate_setup_callbacks_init_attempts = 0;
+     var wp_like_gate_setup_callbacks_init_timer_id = 0;
+
+     function wp_like_gate_setup_callbacks() {
+        if (window.wp_like_gate_setup_callbacks_init_done) {
+            if (wp_like_gate_setup_callbacks_init_timer_id) {
+                clearTimeout(wp_like_gate_setup_callbacks_init_timer_id);
+            }
+            return ;
+        } else if (!FB) {
+            if (wp_like_gate_setup_callbacks_init_attempts < 5) {
+                wp_like_gate_setup_callbacks_init_timer_id = setTimeout(function () {
+                    wp_like_gate_setup_callbacks();
+                }, 2000);
+            }
+            window.wp_like_gate_setup_callbacks_init_attempts++;
+            return ;
+        }
+
+        // handles like
+    FB.Event.subscribe('edge.create', function(href, widget) {
+           like_gate_handle_event({
+                event: 'like',
+                url : href,
+                widget: widget,
+
+                '' : ''
+           });
+    });
+
+     // handles unlike, hide the hidden content
+    FB.Event.subscribe('edge.remove', function(href, widget) {
+           like_gate_handle_event({event:'unlike'});
+    });
+
+        window.wp_like_gate_setup_callbacks_init_done = 1;
+     }
+
+       // Like Gate FB INIT: https://developers.facebook.com/docs/reference/javascript/
+        window.fbAsyncInit = function() {
+                FB.init({
+                    appId      : '109282182482812', // App ID from the App Dashboard
+                    channelUrl : 'http://reakcije.net/videoposnetek/wp-content/plugins/like-gate/channel.html', // Channel File for x-domain communication
+                    status     : true, // check the login status upon init?
+                    cookie     : true, // set sessions cookies to allow your server to access the session?
+                    xfbml      : true  // parse XFBML tags on this page?
+                });
+
+                wp_like_gate_setup_callbacks();
+            };
+    // Like Gate FB INIT END
+</script>
+
+
+
+
+
+
+        
+        <script src="../js/plugins.js"></script>       
+        <script src="../js/main.js"></script>
+
+        <!-- Google Analytics -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>       
+    </body>
+</html>
